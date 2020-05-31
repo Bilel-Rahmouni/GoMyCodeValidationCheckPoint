@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <title>Shop</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/shop.css" />
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+   <title>Lamma</title>
+  </head>
+    <!-- navbar -->
+      <nav class="navbar navbar-light" >
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="../res/logo/logo.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        /> 
+        <span style="font-family: 'Luckiest Guy', cursive;">
+          lamma
+        </span>
+      </a>
+      <div id="searchdiv">
+        <i class="fas fa-search"></i> 
+        <input 
+          id="search"
+          type="text"
+          placeholder="Lawej..."
+        />
+      </div>
+      <div class="btn-group" id="events">
+       <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-hiking"></i>|Kharjet</button>
+        <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Nature</a>
+    <a class="dropdown-item" href="#">Weekends</a>
+    <a class="dropdown-item" href="#">Maisons d'hôtes</a>
+    <a class="dropdown-item" href="#">Hôtels</a>
+  </div>
+      </div>
+      <div class="btn-group" id="tricks">
+     <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <i class="fas fa-magic"></i>|Fazet</button>  
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Conseils</a>
+    <a class="dropdown-item" href="#">Astuces</a>
+    <a class="dropdown-item" href="#">materiels</a>
+    <a class="dropdown-item" href="#">Autre</a>
+  </div>
+      </div>
+      <div  id="ourshop"><a class="navlink" href="Shop.html">
+        <button class="btn"><i class="fas fa-store-alt"></i>|7anout</button></a>
+      </div>
+      <div id="contactus"><a class="navlink" href="contact.html">
+        <button class="btn"><i class="fas fa-file-signature"></i>|Contactina</button></a>
+      </div>
+      <div id="groups"><a class="navlink" href="groups.html">
+        <button class="btn"><i class="fas fa-users"></i>|Groupet</button></a>
+      </div>
+      <div class="btn-group" id="login">
+        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i> Login</button>
+        <div class="dropdown-menu dropdown-menu-right">
+  <form class="px-4 py-3">
+    <div class="form-group">
+      <label for="exampleDropdownFormEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+        <label class="form-check-label" for="dropdownCheck">
+          Remember me
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>
+      </div>
+      </nav>
+    <!-- navbar  end-->
+    <!-- is open -->
+    <div class="welcome" > 
+   <h1 style="width: 100%; text-align: center;" ><b>Our new shop is open now!</b></h1> 
+<video class="welcomevid" autoplay loop> <source src="../res/celebration.mp4" type="video/mp4"></video>
+   <img src="../res/Shop/JB-FE-Shop_03.jpg" width="700px" height="295px" alt="">
+   <video  class="welcomevid" autoplay loop> <source src="../res/celebration.mp4" type="video/mp4"></video>
+  </div>
+    <!-- is open end-->
+  <section class="container items-container content-section">
+    <!-- items -->
+      <!-- item1 -->
+        <div class="shop-item">
+          <h2 class="shop-item-title"> Item1 </h2> <br>
+          <img
+            class="shop-item-image"
+            src="../res/Shop/item1/item1.jpg"
+          />
+          <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+          <div class="shop-item-details">
+            <span class="shop-item-price">129DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              7ot fil 9offa
+            </button>
+            <i class="fas fa-heart liked" aria-hidden="true"></i>
+          </div>
+          </div> 
+          <!-- item1 end-->
+         <!-- item2 -->
+        <div class="shop-item">
+          <h2 class="shop-item-title"> Item2 </h2> <br>
+          <img
+            class="shop-item-image"
+            src="../res/Shop/item2/item2.bmp"
+          />
+          <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+          <div class="shop-item-details">
+            <span class="shop-item-price">29DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              7ot fil 9offa
+            </button>
+            <i class="fas fa-heart liked" aria-hidden="true"></i>
+          </div>
+          </div> 
+        <!-- item2 end-->
+         <!-- item3 -->
+        <div class="shop-item">
+          <h2 class="shop-item-title"> Item3 </h2> <br>
+          <img class="shop-item-image"  
+        
+           src="../res/Shop/item3/ddd.jpg" />
+           <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+          <div class="shop-item-details">
+            <span class="shop-item-price">79DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              7ot fil 9offa</button
+            ><i class="fas fa-heart liked" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- item3 end-->
+        <!-- item4 -->
+        <div class="shop-item">
+          <h2 class="shop-item-title"> Item4</h2> <br>
+          <img class="shop-item-image" 
+          
+           src="../res/Shop/item4/item4.jpg" />
+           <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+          <div class="shop-item-details">
+            <span class="shop-item-price">240DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              7ot fil 9offa</button
+            ><i class="fas fa-heart liked" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- item4 end-->
+      </section> 
+      <hr>
+      <!-- items end-->
+   <!-- panier -->
+    <section class="container cart-container content-section">
+      <h2>CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0DT</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+<!-- panier end -->
+    <footer>
+        <div class="footer">
+        <span style="font-family: 'Luckiest Guy', cursive; ">lamma</span>
+           <p  >© Copyright 2020 - lamma.tn <br>Tabba3na:</p> <i class="fab fa-facebook-square"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-youtube"></i>
+           <i class="fa fa-pinterest"></i>
+           <p><i class="fa fa-mobile"></i> 00216 24669332 <br>lamma@gmail.com </p>
+     </div>
+      </footer>
+      </div>
+    <script src="../js/shop.js"></script>
+     <script
+      src="https://kit.fontawesome.com/7c2fa87f07.js"
+      crossorigin="anonymous"
+    ></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
