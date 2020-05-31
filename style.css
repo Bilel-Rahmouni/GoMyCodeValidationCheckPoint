@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+.navlink {
+  text-decoration: none;
+}
+.btn {
+  background-color: white;
+  width: 160px;
+  height: 50px;
+}
+.carousel {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(9, 300px);
+  grid-gap: 1em;
+}
+.grp-img {
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  margin-left: 80px;
+}
+
+.article {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+.link {
+  color: #3c859b;
+}
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  height: 230px;
+  color: #f7d600;
+  background-color: #3c859b;
+  background-image: url(../res/footer/hiking-in-the-konnevesi-national-park.jpg);
+  background-blend-mode: multiply;
+}
+#search {
+  border: none;
+}
+
+#youtubevid {
+  grid-column: 1/13;
+  grid-row: 1/2;
+}
+#event1 {
+  grid-column: 1/9;
+  grid-row: 2/4;
+}
+#event2 {
+  grid-column: 1/9;
+  grid-row: 4/6;
+}
+#event3 {
+  grid-column: 1/9;
+  grid-row: 6/8;
+}
+#event4 {
+  grid-column: 1/9;
+  grid-row: 8/10;
+}
+#groupA {
+  grid-column: 9/13;
+  grid-row: 2/3;
+}
+#groupB {
+  grid-column: 9/13;
+  grid-row: 3/4;
+}
+#groupC {
+  grid-column: 9/13;
+  grid-row: 4/5;
+}
+#feedbacks {
+  grid-column: 9/13;
+  grid-row: 5/6;
+}
+#map {
+  grid-column: 9/13;
+  grid-row: 6/7;
+}
+#pub2 {
+  grid-column: 9/13;
+  grid-row: 7/8;
+}
+#community {
+  grid-column: 9/13;
+  grid-row: 8/10;
+}
+/* #f7d600 */
+/* #3c859b */

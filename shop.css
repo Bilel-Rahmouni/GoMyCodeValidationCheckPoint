@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 100px; 
+}
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.welcomevid {
+  width: 400px;
+  height: 300px;
+}
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 500px;
+}
+.cart-container {
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+.shop-item-image {
+  width: 200px;
+  height: 200px;
+}
+.shop-item-price {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.liked {
+  color: grey;
+}
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  height: 230px;
+  color: #f7d600;
+  background-color: #3c859b;
+  background-image: url(../res/footer/hiking-in-the-konnevesi-national-park.jpg);
+  background-blend-mode: multiply;
+}
+.shop-item-title {
+  text-align: center;
+}
+#search {
+  border: none;
+}
